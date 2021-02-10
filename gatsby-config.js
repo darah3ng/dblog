@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Dara Portfolio`,
+    title: `D Blog`,
     author: `Dara Heng`,
     description: `A latte bit about me`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://daraheng.com/`,
     social: {
       twitter: ``,
     },
@@ -130,5 +130,13 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /src\/assets/
+        }
+      }
+    }
   ],
 }
