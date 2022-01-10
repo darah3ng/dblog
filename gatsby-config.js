@@ -4,7 +4,7 @@ module.exports = {
     title: `D Blog`,
     author: `Dara Heng`,
     description: `A latte bit about me`,
-    siteUrl: `https://daraheng.com/`,
+    siteUrl: `https://darablog.netlify.app/`,
     social: {
       twitter: ``,
     },
